@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/galeria"
+        android:title="Galeria"
+        android:icon="@drawable/ic_action_editor_insert_photo"
+        app:showAsAction="ifRoom"
+        />
+
+    <item android:id="@+id/camara"
+        android:title="Camara"
+        android:icon="@drawable/ic_action_image_camera_alt"
+        app:showAsAction="ifRoom"
+        />
+
+</menu>
