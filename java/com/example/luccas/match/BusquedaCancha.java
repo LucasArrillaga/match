@@ -12,15 +12,15 @@ public class BusquedaCancha {
     private String nom_complejo;
     private String precio_cancha;
     private String foto_cancha;
-    private float calificacion_cancha;
+    
 
 
-    public BusquedaCancha(String nombre_complejo, String precio, String foto, float calificacion){
+    public BusquedaCancha(String nombre_complejo, String precio, String foto){
 
         nom_complejo = nombre_complejo;
         precio_cancha = precio;
         foto_cancha = foto;
-        calificacion_cancha = calificacion;
+       
 
     }
 
@@ -40,8 +40,6 @@ public class BusquedaCancha {
         return foto_cancha;
     }
 
-    public float getCalificacion_cancha() {
-        return calificacion_cancha;
-    }
+  
 
 }
