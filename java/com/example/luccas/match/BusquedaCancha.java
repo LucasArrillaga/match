@@ -8,16 +8,15 @@ import android.graphics.Bitmap;
 
 public class BusquedaCancha {
 
-    private String id_cancha;
+    
     private String nom_complejo;
     private String precio_cancha;
     private String foto_cancha;
     private float calificacion_cancha;
 
 
-    public BusquedaCancha(String id, String nombre_complejo, String precio, String foto, float calificacion){
+    public BusquedaCancha(String nombre_complejo, String precio, String foto, float calificacion){
 
-        id_cancha = id;
         nom_complejo = nombre_complejo;
         precio_cancha = precio;
         foto_cancha = foto;
